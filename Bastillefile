@@ -1,0 +1,3 @@
+PKG jackett
+SYSRC jackett_enable="YES"
+SERVICE jackett start
