@@ -1,6 +1,7 @@
+ARG version="0.18.1022"
 PKG jackett
 SYSRC jackett_enable="YES"
-CMD fetch https://github.com/Jackett/Jackett/releases/download/v0.18.1022/Jackett.Binaries.Mono.tar.gz -o /usr/local/share
+CMD fetch https://github.com/Jackett/Jackett/releases/download/v${version}"/Jackett.Binaries.Mono.tar.gz -o /usr/local/share
 CMD tar -xzvf /usr/local/share/Jackett.Binaries.Mono.tar.gz -C /usr/local/share
 CMD mv /usr/local/share/jackett /usr/local/share/jackett-old
 CMD mv /usr/local/share/Jackett /usr/local/share/jackett
