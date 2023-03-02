@@ -1,4 +1,4 @@
-ARG version="0.18.1022"
+ARG version="0.18.3436"
 PKG jackett
 SYSRC jackett_enable="YES"
 CMD fetch https://github.com/Jackett/Jackett/releases/download/v${version}"/Jackett.Binaries.Mono.tar.gz -o /usr/local/share
