@@ -1,4 +1,4 @@
-ARG version="0.18.3436"
+ARG version="0.20.3436"
 PKG jackett
 CMD fetch https://github.com/Jackett/Jackett/releases/download/v"${version}"/Jackett.Binaries.Mono.tar.gz -o /usr/local/share
 CMD tar -xzvf /usr/local/share/Jackett.Binaries.Mono.tar.gz -C /usr/local/share
